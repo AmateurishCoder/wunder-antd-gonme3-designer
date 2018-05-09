@@ -1,0 +1,36 @@
+@import '~antd/dist/antd.css';
+
+.common-panel-container {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    scrollbar-arrow-color: #bfbfbf;
+    scrollbar-face-color: #bfbfbf;
+    scrollbar-highlight-color: #333;
+    scrollbar-shadow-color: #bfbfbf;
+    scrollbar-track-color: #000000;
+}
+
+
+.common-panel-container::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.common-panel-container::-webkit-scrollbar-button {
+    display: none;
+}
+
+.common-panel-container::-webkit-scrollbar-track {
+    background: #000000;
+    border-radius: 6px;
+}
+
+.common-panel-container::-webkit-scrollbar-thumb {
+    background: #bfbfbf;
+    border-radius: 6px;
+}
+
+.common-panel-container::-webkit-scrollbar-corner {
+    background: red;
+}

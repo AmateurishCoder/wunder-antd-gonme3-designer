@@ -1,0 +1,14 @@
+@import '~antd/dist/antd.css';
+
+.icon-entry-slider-entry-box {
+    text-align: center;
+    height: 50px;
+}
+
+.icon-entry-slider-entry-icon {
+    width: 75%;
+}
+
+.icon-entry-slider-entry-icon:hover {
+    width: 80%;
+}

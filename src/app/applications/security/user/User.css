@@ -1,0 +1,6 @@
+@import '~antd/dist/antd.css';
+
+.security-user-header{
+    width: 120%;
+    height: 120%;
+}

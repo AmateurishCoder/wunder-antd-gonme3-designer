@@ -1,0 +1,55 @@
+@import '~antd/dist/antd.css';
+
+span {
+    cursor: pointer;
+}
+
+.header-sys-name {
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+}
+
+.header-sys-right-tool-container {
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    padding-top: 4px;
+    text-align: right;
+}
+
+.header-sys-left-tool-container {
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    padding-top: 4px;
+    text-align: left;
+}
+
+.header-sys-right-tool {
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-right: 30px;
+}
+
+.header-sys-left-tool {
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.ant-popover-title {
+    min-width: 177px;
+    margin: 0;
+    padding: 0;
+    min-height: 30px;
+    font-weight: 500;
+}
+
+.ant-popover-inner-content {
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+}
