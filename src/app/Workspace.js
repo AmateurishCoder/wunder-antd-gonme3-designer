@@ -25,6 +25,7 @@ class Workspace extends Component {
                                     name={i}
                                     key={i}
                                     image="./test_p.png"
+                                    showName={false}
                                 />)
                             }
                             return icons;

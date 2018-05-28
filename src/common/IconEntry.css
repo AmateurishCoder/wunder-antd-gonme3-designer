@@ -2,6 +2,11 @@
 
 .icon-entry-slider-entry-box {
     text-align: center;
+    height: 70px;
+}
+
+.icon-entry-slider-entry-box-no-name {
+    text-align: center;
     height: 50px;
 }
 
@@ -11,4 +16,13 @@
 
 .icon-entry-slider-entry-icon:hover {
     width: 80%;
+}
+
+.icon-entry-slider-entry-name{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 3px;
+    font-weight: lighter;
+    color: white;
 }

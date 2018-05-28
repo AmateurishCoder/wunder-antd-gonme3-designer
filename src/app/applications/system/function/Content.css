@@ -1,1 +1,18 @@
 @import '~antd/dist/antd.css';
+
+.system-function-content-container {
+    height: 600px;
+}
+
+.system-function-content-tab {
+    height: 564px;
+}
+
+.ant-tabs-bar {
+    border-bottom: 1px solid #e8e8e8;
+    margin: 0;
+    outline: none;
+    -webkit-transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
